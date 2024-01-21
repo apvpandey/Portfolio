@@ -8,11 +8,11 @@ const Header = () => {
     // Define the options for Typed.js
     const options = {
       strings: [
-        "frontend development",
-        "backend development",
-        "web designing",
-        "android development",
-        "web development",
+        "MERN Stack Development",
+        "React JS",
+        "Node JS",
+        "JavaScript",
+        "HTML || CSS || Bootstrap",
       ],
       loop: true,
       typeSpeed: 50,
