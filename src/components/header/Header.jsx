@@ -43,11 +43,9 @@ const Header = () => {
                   i am a{" "}
                   <Typed
                     strings={[
-                      "frontend development",
-                      "backend development",
-                      "web designing",
-                      "android development",
-                      "web development",
+                      "MERN Stack Developer",
+                      "Forntend Developer",
+                      "Backend Developer",                   
                     ]}
                     typeSpeed={50}
                     backSpeed={25}
