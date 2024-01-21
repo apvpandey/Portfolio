@@ -40,7 +40,7 @@ const Header = () => {
                   <br /> I'm  <span>Apoorv pandey</span>
                 </h2>
                 <p>
-                  i am into{" "}
+                  i am a{" "}
                   <Typed
                     strings={[
                       "frontend development",
