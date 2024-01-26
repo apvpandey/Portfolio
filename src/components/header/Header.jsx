@@ -27,11 +27,11 @@ const Header = () => {
 
   return (
     <>
-      <div className="container">
+      <div className="containerHeader">
         <div className="row justify-content-md-center">
      
           <div className="col-md-auto">
-            <section className="home" id="home">
+            <section className="homeHeader" id="home">
               <div id="particles-js"></div>
 
               <div className="content">
@@ -56,26 +56,13 @@ const Header = () => {
                 </p>
                 <a href="#about" class="btn">
                   <span>About Me...</span>
-                  <i class="fas fa-arrow-circle-down"></i>
+                  <i className="fas fa-arrow-circle-down"></i>
                 </a>
                
               </div>
-              <div class="image">
-                <img
-                  draggable="false"
-                  class="tilt"
-                  src="./assets/images/hero.jpg"
-                  alt=""
-                />
-              </div>
+             
             </section>
           </div>
-          {/* <div class="col col-lg-2">3 of 3</div> */}
-        </div>
-        <div class="row">
-          <div class="col">1 of 3</div>
-          <div class="col-md-auto">Variable width content</div>
-          <div class="col col-lg-2">3 of 3</div>
         </div>
       </div>
     </>

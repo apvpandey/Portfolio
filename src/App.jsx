@@ -3,6 +3,7 @@ import React from 'react';
 import Footer from './components/footer/Footer';
 import NavBar from './components/navbar/Navbar';
 import Header from './components/header/Header';
+import AllComponent from './components/AllComponent';
 
 //import Topbar from './components/topbar/Topbar';
 
@@ -10,7 +11,7 @@ import Header from './components/header/Header';
 const App = () => {
   return (
     <>
-      <NavBar/>
+      {/* <NavBar/> */}
       <Header/>
       
       {/* <Intro />
@@ -18,7 +19,8 @@ const App = () => {
       <Portfolio />
       <Testimonials />
       <Contact /> */}
-      <Footer />
+      {/* <Footer /> */}
+      {/* <AllComponent/> */}
     </>
   )
 }
