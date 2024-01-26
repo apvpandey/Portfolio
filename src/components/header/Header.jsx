@@ -29,7 +29,6 @@ const Header = () => {
     <>
       <div className="containerHeader">
         <div className="row justify-content-md-center">
-     
           <div className="col-md-auto">
             <section className="homeHeader" id="home">
               <div id="particles-js"></div>

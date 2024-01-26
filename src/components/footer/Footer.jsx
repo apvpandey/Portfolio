@@ -16,45 +16,32 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="container">
-        <div className="row gy-3 gy-5 gy-sm-3 py-5 body text-center">
-          <div className="col-xs-12 col-md-4 col-lg-3 text-center"></div>
-          <div className="col-xs-12 col-md-4 col-lg-3 text-center"></div>
-          <div className="col-xs-12 col-md-4 col-lg-3 ">
-            <h6 className="h6 title">About company</h6>
-            <ul class="footer-nav-links">
-              <li>
-                <a href="#">HOME</a>
-              </li>
-              <li>
-                <a href="#">PRICING</a>
-              </li>
-              <li>
-                <a href="#">ABOUT US</a>
-              </li>
-              <li>
-                <a href="#">SERVICES</a>
-              </li>
-              <li>
-                <a href="#">CONTACT</a>
-              </li>
-            </ul>
-          </div>
-          <div className="col-xs-12 col-md-4 col-lg-3 text-center"></div>
-          <div className="col-xs-12 col-md-4 col-lg-3 text-center"></div>
-        </div>
+    <footer class="footer">
+      <p class="footer-title">
+        Microsoft Learn Student Ambassadors of Universiti Sains Malaysia
+      </p>
+      <div class="footer-social">
+        <a
+          href="https://www.facebook.com/MicrosoftLearnStudentAmbassadors.USM"
+          class="footer-icon"
+        >
+          <i class="fa-brands fa-facebook-square"></i>
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UCU4qzNiTNdjGa60CpwtaJZg"
+          class="footer-icon"
+        >
+          <i class="fa-brands fa-youtube"></i>
+        </a>
       </div>
-
-      <div class="footer-bottom">
-        <div class="container">
-          <div class="copy-right-text">
-            <p>
-              Copyright © 2024 . Designed By <a href="">Apoorv</a>
-            </p>
-          </div>
-        </div>
-      </div>
+      <p class="footer-copy">&#169; MLSA USM</p>
+      <p class="footer-copy">
+        This website is coded for learning purpose only.
+      </p>
+      <p class="footer-copy">
+        Credits: Website codes and design are referred from
+        <a href="https://www.youtube.com/c/Bedimcode">Bedimcode</a>
+      </p>
     </footer>
   );
 };

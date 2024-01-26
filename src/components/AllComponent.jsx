@@ -9,7 +9,6 @@ const allComponent = ()=> {
         <div>
           <a href="#" class="nav-logo">Levi</a>
         </div>
-
         <div class="nav-menu" id="nav-menu">
           <ul class="nav-list">
             <li class="nav-item">

@@ -4,6 +4,11 @@ import Footer from './components/footer/Footer';
 import NavBar from './components/navbar/Navbar';
 import Header from './components/header/Header';
 import AllComponent from './components/AllComponent';
+import Home from './components/home/Home';
+import About from './components/about/About';
+import Skills from './components/skills/Skills';
+import Project from './components/projects/Projects';
+import Contact from './components/contact/Contact';
 
 //import Topbar from './components/topbar/Topbar';
 
@@ -11,7 +16,7 @@ import AllComponent from './components/AllComponent';
 const App = () => {
   return (
     <>
-      {/* <NavBar/> */}
+      <NavBar/>
       <Header/>
       
       {/* <Intro />
@@ -19,7 +24,14 @@ const App = () => {
       <Portfolio />
       <Testimonials />
       <Contact /> */}
-      {/* <Footer /> */}
+      
+      {/* <Home/> */}
+      <About/>
+      <Skills/>
+      <Project/>
+      <Contact/>
+      <Footer />
+      {/* <NavBar/> */}
       {/* <AllComponent/> */}
     </>
   )
