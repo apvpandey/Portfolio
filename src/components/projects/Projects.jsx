@@ -4,7 +4,7 @@ import proImg from "../../assets/profile.png";
 const Project = () => {
   return (
     <>
-      <section class="work section" id="work">
+      <section class="work section" id="project">
         <h2 class="section-title">Projects</h2>
 
         <div class="work-container bd-grid">

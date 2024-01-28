@@ -6,7 +6,7 @@ import React from "react";
 const NavBar = () => {
   return (
     <>
-      <header class="nav-container">
+      {/* <header class="nav-container">
       <nav class="nav bd-grid">
         <div>
           <a href="#" class="nav-logo"><img src="" alt=""/></a>
@@ -34,7 +34,34 @@ const NavBar = () => {
           <i className="fa-solid fa-bars" id="burgerBtn"></i>
         </div>
       </nav>
-    </header>
+    </header> */}
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav text-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#project">Project</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
     </>
   );
 };
