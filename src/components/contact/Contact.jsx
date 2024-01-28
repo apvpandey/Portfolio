@@ -7,7 +7,7 @@ const Contact = () => {
         <h2 class="section-title">Contact</h2>
         <div class="container text-center">
           <div class="row justify-content-md-center">
-            <div class="col col-lg-4">
+            <div class="col col-lg-6">
               <div className="text-center">
                 <iframe
                   class="gmap_canvas_iframe"
@@ -21,7 +21,7 @@ const Contact = () => {
               </div>
             </div>
             {/* <div class="col-md-auto">Variable width content</div> */}
-            <div class="col col-lg-3">
+            <div class="col col-lg-4">
               <div>
                 <form action="" class="contact-form">
                   <input type="text" placeholder="Name" class="contact-input" />
