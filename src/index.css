@@ -72,7 +72,7 @@ body {
 }
 
 .containerHeader {
-  background: linear-gradient(90deg in oklab, rgb(24, 24, 73), rgb(9, 9, 9));
+  background: linear-gradient(90deg in oklab, rgb(19, 19, 118), rgb(9, 9, 9));
   margin-top: 20px;
 }
 
