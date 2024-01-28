@@ -68,7 +68,7 @@ const Header = () => {
                       <a
                         class="linkedin"
                         aria-label="LinkedIn"
-                        href="https://www.linkedin.com/in/atharv-pandey/"
+                        href=""
                         target="_blank"
                       >
                         <img src={LinkDinImg} alt=""/>
@@ -79,7 +79,7 @@ const Header = () => {
                       <a
                         class="github"
                         aria-label="GitHub"
-                        href="https://github.com/AtharvPandey"
+                        href=""
                         target="_blank"
                       >
                         <img src={gitHubImg} alt=""/>
@@ -89,7 +89,7 @@ const Header = () => {
                       <a
                         class="twitter"
                         aria-label="Twitter"
-                        href="https://twitter.com/18atharv_"
+                        href=""
                         target="_blank"
                       >
                         <img src={TwitterImg} alt=""/>
