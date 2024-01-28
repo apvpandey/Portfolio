@@ -261,6 +261,11 @@ img {
 }
 
 /*===== NAV BAR =====*/
+.navImage{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
 .navbar {
   padding: 15px;
   border-bottom-left-radius: 20px;

@@ -1,4 +1,5 @@
 import React from "react";
+import proImage from "../../assets/pro-1.jpeg"
 //import CTA from "./CTA";
 //import HeaderSocials from "./HeaderSocials";
 // import "./header.css";
@@ -47,6 +48,9 @@ const NavBar = () => {
                 </a>
               </li>
             </ul>
+          </div>
+          <div>
+            <img className="navImage" src={proImage} alt=".." />
           </div>
         </div>
       </nav>
