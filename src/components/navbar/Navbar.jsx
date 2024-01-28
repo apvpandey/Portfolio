@@ -49,6 +49,9 @@ const NavBar = () => {
               <img className="navImage" src={proImage} alt=".." />
             </div> */}
           </div>
+          <div>
+            <img className="navImage" src={proImage} alt=".." />
+          </div>
         </div>
       </nav>
     </>
